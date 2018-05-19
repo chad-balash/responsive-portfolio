@@ -168,10 +168,22 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: none;
+    margin-top: 10px;
+}
+
+ /* This is not nessacarry in my desgin. I like the responsive look until about 500px wide. */
+@media screen and (max-width: 980px) {
+   
+
+}
+
+ /* This is not nessacarry in my desgin. I like the responsive look until about 500px wide. */
+@media screen and (max-width: 768px) {
+   
 }
 
 
-
+/*I changed this last media tag to 500px instead of 640px becasue I don't think it needs it until this point.*/
 @media screen and (max-width: 500px) {
     .headercontainer {
         margin: 0 auto;
